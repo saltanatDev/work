@@ -1,0 +1,100 @@
+@import "reset.css";
+@import "varabel.css";
+@import "mixins.css";
+
+#result {
+  background: #FFFFFF;
+
+  .result {
+    h1 {
+      padding: 30px 0;
+      font-size: 36px;
+      line-height: 35px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #181818;
+
+      span {
+        color: #EDD713;
+      }
+
+
+    }
+
+    &--image {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 1092px;
+      height: 539px;
+      background: #FFFFFF;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+
+      &__img {
+        img {
+          width: 540px;
+          height: 350px;
+        }
+      }
+
+      &__block {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 139px;
+          height: 103px;
+        }
+
+      }
+
+      &__text {
+        h2 {
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 38px;
+          color: #181818;
+          padding: 20px 0;
+        }
+
+        &--sdu {
+          display: flex;
+          align-items: center;
+
+          a {
+            font-size: 30px;
+            color: #EDD713;
+            padding: 10px 10px;
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 19px;
+            color: #181818;
+            padding: 10px 10px;
+
+          }
+        }
+
+        h3 {
+          font-size: 14px;
+          line-height: 18px;
+          color: #181818;
+
+        }
+
+        button {
+          width: 220px;
+          height: 70px;
+          border: none;
+          font-size: 20px;
+          color: black;
+          margin: 80px 0 ;
+          background: linear-gradient(180deg, #FFF667 0%, #F5E934 100%);
+        }
+      }
+    }
+  }
+
+}

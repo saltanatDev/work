@@ -1,0 +1,86 @@
+@import "mixins.css";
+@import "reset.css";
+@import "varabel.css";
+
+#navbar {
+  background: url("../img/Group 387.png");
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--text {
+      h1 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 140%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 10px 0;
+
+        span {
+          color: #EDD713;
+        }
+
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 10px 0;
+        color: #FFFFFF;
+
+      }
+
+      &__ioc {
+        display: flex;
+        align-items: center;
+
+        a {
+          font-size: 30px;
+          color: #EDD713;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 140%;
+          /* or 25px */
+
+
+          color: #FFFFFF;
+
+        }
+      }
+
+      button {
+        width: 350px;
+        height: 70px;
+        border: none;
+        color: black;
+        font-size: 15px;
+        background: linear-gradient(180deg, #FFF667 0%, #F5E934 100%);
+        transition: .4s;
+        margin: 20px 0;
+
+        &:hover {
+          transform: scale(1.1);
+          color: #EDD713;
+          background: transparent;
+          border: 2px solid #EDD713;
+
+        }
+      }
+    }
+      &--image {
+        position: relative;
+        &__man {
+          position: absolute;
+          right: 30px;
+
+        }
+      }
+  }
+}

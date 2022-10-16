@@ -1,0 +1,43 @@
+@import "reset.css";
+@import "mixins.css";
+@import "varabel.css";
+#footer{
+  background: black;
+ 
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--img{
+      p{
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        color: #FFFFFF;
+        span{
+          font-size:23px;
+        }
+      }
+    }
+    &--title{
+    a{
+      font-size: 20px;
+      line-height: 23px;
+      text-decoration-line: underline;
+      color: #FFFFFF;
+
+    }
+    }
+    &--text{
+      font-family: 'Gilroy',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+      color: #FFFFFF;
+
+    }
+
+  }
+}

@@ -1,0 +1,142 @@
+
+
+/*# sourc@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+
+    #header {
+      .header--general {
+        &__ioc {
+          font-size: 10px;
+        }
+      }
+
+      &__master {
+        p {
+          font-size: 10px;
+        }
+      }
+
+      &__coll {
+        p {
+          font-size: 15px;
+        }
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+    }
+
+    #hero {
+      .hero {
+        &--nav {
+          width: 1115px;
+        }
+
+        &--generale {
+          &__general {
+            &__image {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  #hero {
+    .hero {
+      &--generale {
+        &__general {
+          h1 {
+            font-size: 35px;
+
+            span {
+              font-size: 35px;
+            }
+          }
+        }
+
+        &--btn {
+          button {
+            width: 290px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  #hero {
+    .hero--generale {
+      &__general {
+        &--block {
+
+        }
+      }
+    }
+  }
+  .hero--generale {
+    flex-direction: column;
+  }
+  .hero--generale__bloke--blok {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+}eMappingURL=media.css.map */

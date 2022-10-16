@@ -1,0 +1,96 @@
+@import "mixins.css";
+@import "varabel.css";
+@import "reset.css";
+
+#cleaning {
+  background: url("../img/Group 204.png") no-repeat center/cover;
+  min-height: 90vh;
+  margin: 50px 0;
+
+
+  .cleaning {
+    &--text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h1 {
+        line-height: 46px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        span {
+          color: #EDD713;
+        }
+
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      &__btn {
+        display: flex;
+        align-items: center;
+
+        button {
+          margin: 10px 20px;
+          width: 194px;
+          height: 77px;
+          border: none;
+          font-size: 18px;
+          color: white;
+          background: rgba(245, 233, 52, 0.1);
+          backdrop-filter: blur(2px)
+        }
+      }
+    }
+
+    &--block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__img {
+        &--text {
+          width: 370px;
+          height: 450px;
+          margin-top: -10px;
+          background: #FFFFFF;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+          h1 {
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+            color: #393939;
+            padding: 10px 20px;
+          }
+          p{
+            font-size: 20px;
+            line-height: 20px;
+            /* identical to box height */
+            color: #393939;
+            padding: 10px 20px;
+
+          }
+          button{
+            width: 302px;
+            height: 70px;
+            border: none;
+            color: black;
+            margin: 10px 20px ;
+            font-size: 20px;
+            background: linear-gradient(180deg, #FFF667 0%, #F5E934 100%);
+          }
+        }
+      }
+    }
+  }
+}

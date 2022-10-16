@@ -1,0 +1,70 @@
+@import "reset.css";
+@import "mixins.css";
+@import "varabel.css";
+
+#professional {
+  background: #FFFFFF;
+
+  .professional {
+    &--text {
+      h1 {
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #393939;
+
+        span {
+          color: #EDD713;
+        }
+
+      }
+    }
+
+    &--red  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__block {
+        img {
+          width: 500px;
+          height: 300px;
+          margin-bottom: -30px;
+        }
+
+        &--title {
+          width: 480px;
+          height: 200px;;
+          background: #FFFFFF;
+          margin-left: 10px;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+          h1 {
+            font-size: 20px;
+            line-height: 140%;
+            text-align: center;
+            color: #181818;
+            padding: 20px 0;
+          }
+
+          h2 {
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #E9D201;
+            padding-top: 30px;
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 140%;
+            text-align: center;
+            color: #181818;
+          }
+        }
+      }
+    }
+  }
+}

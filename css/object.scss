@@ -1,0 +1,152 @@
+@import "mixins.css";
+@import "reset.css";
+@import "varabel.css";
+
+#object {
+  background: #FFFFFF;
+
+  .object {
+
+
+    h1 {
+      font-weight: 200;
+      font-size: 35px;
+      line-height: 140%;
+      padding: 20px 40px;
+      color: #232323;
+    }
+
+    &--block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1140px;
+      height: 557px;
+      margin: 10px 40px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(7.5px);
+      /* Note: backdrop-filter has minimal browser support */
+      &__left {
+        h1 {
+          font-size: 30px;
+          line-height: 36px;
+          color: #000000;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+
+          &__text {
+            margin: 10px 10px;
+
+            img {
+
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 140%;
+              color: #181818;
+              text-align: center;
+
+            }
+          }
+        }
+
+        &--metr {
+          h2 {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            color: #000000;
+            padding: 10px 20px;
+          }
+
+          img {
+            margin: 10px 20px;
+          }
+        }
+
+        &--rad {
+          display: flex;
+          align-items: center;
+
+          h1 {
+            font-size: 30px;
+            line-height: 36px;
+            color: #000000;
+          }
+
+          h3 {
+            font-size: 35px;
+            line-height: 49px;
+            color: #000000;
+          }
+        }
+      }
+
+      &__right {
+        h1 {
+          font-size: 30px;
+          line-height: 30px;
+          color: #000000;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+
+          &__text {
+            margin: 10px 10px;
+
+
+            p {
+              font-size: 16px;
+              line-height: 140%;
+              color: #181818;
+              text-align: center;
+
+            }
+          }
+        }
+
+        &--title {
+          h1 {
+            font-size: 30px;
+            line-height: 36px;
+            color: #000000;
+
+          }
+
+          &__input {
+            display: flex;
+
+            &--p {
+              display: flex;
+              align-items: center;
+              margin: 0 20px;
+              p {
+                font-size: 16px;
+                line-height: 140%;
+                color: #181818;
+                padding: 10px 10px ;
+
+              }
+            }
+          }
+          button{
+            width: 350px;
+            height: 70px;
+            border: none;
+            margin: 10px 50px;
+            font-size: 20px;
+            color: black;
+            background: linear-gradient(180deg, #FFF667 0%, #F5E934 100%);
+          }
+        }
+      }
+    }
+  }
+}

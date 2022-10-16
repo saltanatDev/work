@@ -1,0 +1,104 @@
+@import "mixins.css";
+@import "varabel.css";
+@import "reset.css";
+
+#wonderful {
+  background: url("../img/image 47.svg") no-repeat center/cover;
+  height: 700px;
+
+
+  .wonderful {
+    h1 {
+      font-size: 32px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 40px 0;
+
+      span {
+        color: #EDD713;
+
+      }
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    &--block {
+      width: 770px;
+      height: 100px;
+      margin: 80px 150px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(2px);
+
+      /* Note: backdrop-filter has minimal browser support */
+      h2 {
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 10px 0;
+      }
+
+
+    }
+    &--general{
+      &__blocke {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        &__title{
+          width: 270px;
+          height: 394px;
+          background: white;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.0);
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+          margin-right: 20px;
+          p{
+            color: black;
+          }
+          button {
+            width: 220px;
+            height: 46px;
+            background: linear-gradient(180deg, #FFF667 0%, #F5E934 100%);
+            border: none;
+            color: black;
+          }
+          h4{
+            font-size: 17px;
+            color: #EDD713;
+          }
+          h3{
+            font-size: 18px;
+            line-height: 140%;
+            text-align: center;
+            color: #393939;
+          }
+          h5{
+            font-size: 18px;
+            line-height: 140%;
+            text-align: center;
+            color:#EDD713;
+
+          }
+          &--ioc{
+            font-size: 30px;
+
+          }
+        }
+      }
+    }
+  }
+}

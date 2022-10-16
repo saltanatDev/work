@@ -1,0 +1,107 @@
+@import "mixins.css";
+@import "reset.css";
+@import "varabel.css";
+
+#answer {
+  background: #FFFFFF;
+
+  .answer--nav {
+    margin: 30px 0;
+
+    h1 {
+      font-weight: 600;
+      font-size: 36px;
+      text-align: center;
+      color: white;
+
+      span {
+        color: #EDD713;
+      }
+    }
+
+    &__block {
+      width: 1000px;
+      height: 550px;
+      background: rgba(255, 255, 255, 0.9);
+      margin-left: 50px;
+      margin-top: 20px;
+
+      &--title {
+        h2 {
+          font-size: 18px;
+          color: #9E9E9E;
+          text-align: center;
+          padding: 10px 0;
+
+          span {
+            color: rgba(255, 255, 255, 0.52);
+            font-size: 18px;
+          }
+        }
+
+        img {
+          margin: 10px 250px;
+        }
+
+        h3 {
+          font-size: 25px;
+          line-height: 38px;
+          text-align: center;
+          color: #181818;
+
+        }
+      }
+
+      button {
+        width: 300px;
+        height: 60px;
+        border: none;
+        font-size: 15px;
+        color: black;
+        background: linear-gradient(180deg, #FFF667 0%, #F5E934 100%);
+        //transition: .4s;
+        margin: 10px 300px;
+
+        &:hover {
+          //transform: scale(1.1);
+          background: transparent;
+          border: 2px solid #EDD713;
+          color: black;
+        }
+      }
+
+
+      &--img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__image {
+          img {
+            margin: 10px 10px;
+          }
+
+          &--input {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+
+            input {
+              width: 15px;
+              height: 15px;
+              border: none;
+            }
+
+            p {
+              font-size: 16px;
+              color: #181818;
+              padding-left: 5px;
+
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
